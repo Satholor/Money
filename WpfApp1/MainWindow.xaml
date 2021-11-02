@@ -1,0 +1,31 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="balanceTextBlockValue" HorizontalAlignment="Left" Height="34" Margin="78,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" RenderTransformOrigin="-0.308,-2.559"/>
+        <TextBox x:Name="paymentTextBlockValue" HorizontalAlignment="Left" Height="34" Margin="260,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" RenderTransformOrigin="-0.029,0.304"/>
+        <TextBox x:Name="interestPaidTextBlockValue" HorizontalAlignment="Left" Height="34" Margin="464,75,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.521,0.109"/>
+        <TextBox x:Name="principleTextBlockValue" HorizontalAlignment="Left" Height="34" Margin="624,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="119" RenderTransformOrigin="-0.029,0.304"/>
+        <TextBox x:Name="annualRateTextBlockValue" HorizontalAlignment="Left" Height="33" Margin="78,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="monthlyRateTextBlockValue" HorizontalAlignment="Left" Height="33" Margin="260,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="balanceTextBox" HorizontalAlignment="Left" Height="33" Margin="464,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Visibility="Hidden"/>
+        <TextBox x:Name="paymentTextBox" HorizontalAlignment="Left" Height="33" Margin="624,173,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118"/>
+        <Label Content="Balance" HorizontalAlignment="Left" Margin="78,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Payment" HorizontalAlignment="Left" Margin="260,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Interest" HorizontalAlignment="Left" Margin="466,49,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Annual rate" HorizontalAlignment="Left" Margin="78,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Principle" HorizontalAlignment="Left" Margin="624,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Monthly rate" HorizontalAlignment="Left" Margin="260,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Label Content="Balance total?" HorizontalAlignment="Left" Margin="464,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118" Visibility="Hidden"/>
+        <Label Content="Total payment?" HorizontalAlignment="Left" Margin="625,142,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.158,-1.635" Width="118"/>
+        <Button Content="ValuesButton" HorizontalAlignment="Left" Margin="319,244,0,0" VerticalAlignment="Top" Width="138" Height="47"/>
+        <Button Content="CalculatePayment" HorizontalAlignment="Left" Margin="90,244,0,0" VerticalAlignment="Top" Width="150" Height="47"/>
+
+
+    </Grid>
+</Window>
